@@ -36,7 +36,7 @@ specifically to benchmark this difference using SysTick timing.
 
 ### Fixed Point Display
 OutFix takes the integer position value (0 to 2000) and formats 
-it as X.XXX cm for the LCD. No floating point involved -- the 
+it as X.XXX cm for the LCD. No floating point involved. The 
 whole and fractional parts are split with integer division and 
 modulo:
 
