@@ -31,7 +31,7 @@ Position = ((1739 * Data) >> 12) + 148
 The right shift by 12 keeps everything in integer arithmetic 
 without floating point. This matters on the Cortex M0+ because 
 floating point operations take roughly 100x longer than integer 
-operations -- FloatConvert was implemented alongside Convert 
+operations. FloatConvert was implemented alongside Convert 
 specifically to benchmark this difference using SysTick timing.
 
 ### Fixed Point Display
